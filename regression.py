@@ -63,16 +63,16 @@ def predprix(Py):
     return (Py-b)/a
 
 
-print('pour prédire de surface taper 1 et pour prédire le prix taper 2 :')
+print('pour prédire de surface taper 1 && pour prédire le prix taper 2 :')
 choix=int(input())
 
 if choix == 1 :
-    print('inserer le prix')
+    print('saisit le prix')
     prix=int(input())
     
     print('la surface y=' ,predsurface(prix))
 elif choix == 2:
-    print('inserer la surface')
+    print('saisit la surface')
     surface=float(input())
     
     print('le prix x=' ,predprix(surface))
