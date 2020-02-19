@@ -7,33 +7,14 @@ import matplotlib.pyplot as plt
 
 =============  Un exemple de la régression linéaire simple =========
 """ 
-"""
-1) calculer Xbar et Ybar => Xbar = 
-======================= 18 Février 2020 ============================
 
-
-
-"""
 
 
 #dataset
 x = np.array([[28],[50],[196],[55],[190],[110],[60],[48],[90],[35],[86],[65],[32],[52],[40],[70],[28],[30],[105],[52],[80],[60],[20],[100]])
 y= np.array([[130],[280],[800],[268],[790],[500],[320],[250],[378],[250],[350],[300],[155],[245],[200],[325],[85],[78],[375],[200],[270],[295],[85],[495]])
 
-"""
-selection des données a partir d'un fichier '
-A=open("test.csv", 'r')
-A.readline()
-X=array([])
-Y=array([])
-for i in A:
-    var=i.split(",")
-    x=float(var[0])
-    y=float(var[1])
-    X=append(X,x)
-    Y=append(Y,y)
-    
-    """
+
     
     
 #calculer Xbar et Ybar
