@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 Created on Wed Feb 19 21:21:43 2020
-================= @author: 'CHAMROUKHI Naoufel' =====================
+@author: 'CHAMROUKHI Naoufel'
 
 """ 
 
